@@ -1,0 +1,86 @@
+body{
+    font-family: Times New Roman, serif;
+}
+
+.bol{
+    font-weight: bold;
+}
+
+.undl{
+    text-decoration-line: underline;
+}
+
+.midl{
+    text-decoration-line: line-through;
+}
+
+.em{
+    font-style: italic;
+}
+
+.rc{
+    color: #b90000;
+}
+
+.hl{
+    background-color: #ffff00;
+}
+
+#main, #main ul{
+    color: #a91515;
+    list-style-type: none;
+    font-family: Georgia, serif;
+}
+
+#main li{
+    margin-left: 20px;
+}
+
+#tags{
+    list-style-type: upper-roman;
+}
+
+#tags >li::marker{
+    color: black;
+}
+
+.obs{
+    list-style-type: lower-alpha;
+}
+
+.obs > li::marker, .obs ul{
+    font-weight: normal;
+}
+
+.obs > li{
+    font-weight: bold;
+}
+
+#stop > li::marker{
+    font-size: 9px;
+}
+
+#code{
+    border: #969696 2px dashed;
+
+}
+
+#naslov{
+    color: #99c7ba;
+}
+
+#format{
+    color: #016701;
+}
+
+#list{
+    color: #eeee02;
+}
+
+#pos{
+    color: #ffc6d0;
+}
+
+#rights{
+    text-align: center;
+}
